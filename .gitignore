@@ -1,0 +1,9 @@
+# build and test outputs
+vendor/
+vendor.orig/
+Godeps/_workspace/
+*.tar.gz
+*.xml
+*.txt
+
+

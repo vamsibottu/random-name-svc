@@ -7,7 +7,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/random_name_svc/config"
+	"github.com/random-name-svc/config"
 )
 
 // Init is used to initialize the routes

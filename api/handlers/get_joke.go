@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/random_name_svc/models"
-	"github.com/random_name_svc/service"
+	"github.com/random-name-svc/models"
+	"github.com/random-name-svc/service"
 )
 
 func getRandomJokeByName(w http.ResponseWriter, r *http.Request) {

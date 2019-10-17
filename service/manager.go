@@ -3,7 +3,7 @@ package service
 import (
 	"log"
 
-	"github.com/random_name_svc/clients"
+	"github.com/random-name-svc/clients"
 )
 
 // GetRandomJokeByName will get the random name and respective joke from the apis provided

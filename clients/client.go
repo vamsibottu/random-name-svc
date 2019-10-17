@@ -11,8 +11,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/random_name_svc/config"
-	"github.com/random_name_svc/models"
+	"github.com/random-name-svc/config"
+	"github.com/random-name-svc/models"
 )
 
 // newHTTPClient returns new httpClient

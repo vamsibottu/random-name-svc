@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/random_name_svc/api/handlers"
+	"github.com/random-name-svc/api/handlers"
 )
 
 func main() {

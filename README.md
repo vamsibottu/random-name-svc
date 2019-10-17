@@ -14,10 +14,23 @@
 #### How to run
 
 ##### Webserver
+
+## Build Docker container and tag the container with name
 ```
-go run cmd/main.go
+docker build -t random-name-svc .
 ```
-##### Golang CI Lint
+
+## Run the container 
+```
+docker run --publish 6060:8080 --name new-svc --rm random-name-svc
+```
+
+## To see the results
+```
+localhost:6060
+```
+
+##### To check the code Quality Golang CI Lint
 
 ```
 golangci-lint run

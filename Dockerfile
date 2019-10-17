@@ -16,4 +16,4 @@ RUN go install github.com/random-name-svc
 # Run the outyet command by default when the container starts.
 ENTRYPOINT /go/bin/random-name-svc
 
-EXPOSE 5000
+EXPOSE 8080
